@@ -1,8 +1,2 @@
-<div>
-  @for (commit of commits$(); track commit) {
-    <div>
-      <h2>{{ commit.title }}</h2>
-      <p>{{ commit.subtitle }}</p>
-    </div>
-  }
-</div>
+<h1>Commits</h1>
+<kendo-timeline [events]="commits$()" [orientation]="'horizontal'"></kendo-timeline>
