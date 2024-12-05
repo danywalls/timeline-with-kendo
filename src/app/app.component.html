@@ -1,2 +1,16 @@
-<h1>Commits</h1>
-<kendo-timeline [events]="commits$()" [orientation]="'horizontal'"></kendo-timeline>
+<kendo-timeline [events]="commits$()" [orientation]="'horizontal'">
+  <ng-template kendoTimelineCardHeaderTemplate let-event>
+    <h3>{{ event.title }} - {{ event.subtitle }}</h3>
+  </ng-template>
+
+
+  <ng-template kendoTimelineCardBodyTemplate let-event>
+    <p><strong>Author:</strong> {{ event.description }}</p>
+    <p><strong>Date:</strong> {{ event.subtitle | date :'mediumDate' }}</p>
+  </ng-template>
+
+
+  <ng-template kendoTimelineCardActionsTemplate let-event>
+    <a [href]="event.actions.url" target="_blank">{{ event.actions.text }}</a>
+  </ng-template>
+</kendo-timeline>

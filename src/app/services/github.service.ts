@@ -18,10 +18,16 @@ export class GithubService {
             title: commit.commit.message,
             subtitle: commit.commit.author.date,
             description: commit.commit.author.name,
-            date: new Date(commit.commit.author.date)
+            date: new Date(commit.commit.author.date),
+            actions:
+              {
+                text: 'View Commit on GitHub',
+                url: commit.html_url,
+              },
           }
         ));
       })
     );
   }
 }
+
