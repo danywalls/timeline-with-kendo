@@ -14,6 +14,17 @@ Visualize GitHub commit events using the Kendo UI for Angular Timeline component
 1. `ng serve` 
 2. Enter a GitHub username to see their commit timeline.
 
+## Project Summary
+Visualize GitHub commit events using the Kendo UI for Angular Timeline component, featuring custom templates and API integration.
+
+## How to Run
+### Installation
+1. `npm install` 
+
+### Running
+1. `ng serve` 
+2. Enter a GitHub username to see their commit timeline.
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
 
 ## Development server
