@@ -1,4 +1,18 @@
-# TimelineWithKendo
+> [!NOTE]
+> This repository contains the source code for the article: **[Build GitHub Timeline with Kendo UI for Angular Timeline](https://www.telerik.com/blogs/build-github-timeline-kendo-ui-angular-timeline)** originally published on [Telerik Blogs](https://www.telerik.com/blogs).
+
+# Build GitHub Timeline with Kendo UI for Angular Timeline
+
+## Project Summary
+Visualize GitHub commit events using the Kendo UI for Angular Timeline component, featuring custom templates and API integration.
+
+## How to Run
+### Installation
+1. `npm install` 
+
+### Running
+1. `ng serve` 
+2. Enter a GitHub username to see their commit timeline.
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.1.
 
@@ -57,3 +71,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+---
+Stay connected: [@danywalls](https://twitter.com/danywalls)
